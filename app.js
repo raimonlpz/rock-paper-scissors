@@ -31,8 +31,6 @@ function displayRock(){
         buttonPlay.innerHTML = 'PLAY!'
         document.body.appendChild(buttonPlay);
 
-        //Location.reload();
-
 
         let choice = user[0].value;
 
@@ -96,11 +94,6 @@ function displayScissors(){
 
 
 
-
-
-
-
-
 function startGame(choice){
     let arrChoices = ['rock','paper','scissors']
     let userChoice;
@@ -149,3 +142,4 @@ function startGame(choice){
 function newGame(){
     window.location.reload();
 }
+
