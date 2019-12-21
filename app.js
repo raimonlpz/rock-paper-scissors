@@ -1,18 +1,16 @@
-let user = document.getElementsByClassName('btn');
 
+let user = document.getElementsByClassName('btn');
 
 
 let refresh = document.getElementById('refresh');
 refresh.addEventListener('click', newGame);
+refresh.style.visibility = "hidden";
 
 
 user[0].addEventListener('click', displayRock);
 user[1].addEventListener('click', displayPaper);
 user[2].addEventListener('click', displayScissors);
 
- 
-let resultBtn = document.getElementById('refresh');
-resultBtn.style.visibility = "hidden";
 
 let elemChoosed = false;
 
